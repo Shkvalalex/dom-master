@@ -5,7 +5,7 @@
 
 ## 🌐 Демо
 
-- Веб-интерфейс (WeWeb Build): [https://app.dom-monitor.ru](https://app.dom-monitor.ru)  
+- Веб-интерфейс (WeWeb Build): [https://dom-monitor.ru](https://dom-monitor.ru)  
 - PROD API (Swagger): [https://api.dom-monitor.ru/docs/prod/](https://api.dom-monitor.ru/docs/prod/)  
 - DEMO API (Swagger): [https://api.dom-monitor.ru/docs/demo/](https://api.dom-monitor.ru/docs/demo/)  
 
