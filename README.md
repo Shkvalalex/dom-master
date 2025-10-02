@@ -3,14 +3,15 @@
 Сервис для приёма показаний счётчиков (PROD REST API) и генерации демо-данных (DEMO).  
 Используется вместе с Supabase/Postgres для агрегации почасовых данных и детекции аномалий.
 
-## Живые спецификации (Swagger UI)
+## 🌐 Демо
 
-- PROD API: https://api.dom-monitor.ru/docs/prod/
-- DEMO API: https://api.dom-monitor.ru/docs/demo/
+- Веб-интерфейс (WeWeb Build): [https://app.dom-monitor.ru](https://app.dom-monitor.ru)  
+- PROD API (Swagger): [https://api.dom-monitor.ru/docs/prod/](https://api.dom-monitor.ru/docs/prod/)  
+- DEMO API (Swagger): [https://api.dom-monitor.ru/docs/demo/](https://api.dom-monitor.ru/docs/demo/)  
 
-JSON-спеки:
-- https://api.dom-monitor.ru/openapi.prod.json
-- https://api.dom-monitor.ru/openapi.demo.json
+JSON-спеки OpenAPI:  
+- [https://api.dom-monitor.ru/openapi.prod.json](https://api.dom-monitor.ru/openapi.prod.json)  
+- [https://api.dom-monitor.ru/openapi.demo.json](https://api.dom-monitor.ru/openapi.demo.json)  
 
 ---
 
