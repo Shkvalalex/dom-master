@@ -16,29 +16,29 @@ JSON-спеки:
 
 ## Структура
 
-├─ src/                # исходники TypeScript
+│─ src/                # исходники TypeScript
 
-│  ├─ index.ts         # сервер, Swagger, роутинг
+│  │─ index.ts         # сервер, Swagger, роутинг
 
-│  ├─ api_v1.ts        # REST /v1 (PROD)
+│  │─ api_v1.ts        # REST /v1 (PROD)
 
-│  ├─ ingest.ts        # upsert измерений в jkh_readings
+│  │─ ingest.ts        # upsert измерений в jkh_readings
 
-│  ├─ supabase.ts      # клиент Supabase
+│  │─ supabase.ts      # клиент Supabase
 
-│  ├─ scenarios.ts     # генерация профилей/сценариев
+│  │─ scenarios.ts     # генерация профилей/сценариев
 
-│  └─ …                # прочие модули
+│  │─ …                # прочие модули
 
-├─ dist/               # (опционально) сборка JS (npm run build)
+│─ dist/               # (опционально) сборка JS (npm run build)
 
-├─ public/             # статические ресурсы (WeWeb build, фронт для демо)
+│─ public/             # статические ресурсы (WeWeb build, фронт для демо)
 
-│  └─ index.html       # точка входа WeWeb-приложения (SPA)
+│  │─ index.html       # точка входа WeWeb-приложения (SPA)
 
-├─ month_load.sh       # пример массовой загрузки
+│─ month_load.sh       # пример массовой загрузки
 
-├─ package.json
+─ package.json
 
 
 ├─ tsconfig.json
