@@ -45,13 +45,15 @@ JSON-спеки:
 
 ```env
 # базовые
-PORT=8787
-HOST=0.0.0.0
-NODE_ENV=production
-
-# Supabase
 SUPABASE_URL=your-supabase-url
-SUPABASE_SERVICE_KEY=your-supabase-service-role-key
+SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
+SUPABASE_ANON_KEY=your-supabase-anin-key
+SUPABASE_SCHEMA=public
+SUPABASE_TABLE=jkh_readings
 
-# Ключи для PROD API (через Bearer).
-API_KEYS=demo123,prod456
+SEED_DAYS=7       
+TICK_MS=60000     
+PORT=8787
+API_KEYS=YOUR_KEY,ANOTHER_KEY,TEST_KEY
+
+
