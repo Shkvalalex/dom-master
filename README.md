@@ -17,19 +17,34 @@ JSON-спеки:
 ## Структура
 
 ├─ src/                # исходники TypeScript
+
 │  ├─ index.ts         # сервер, Swagger, роутинг
+
 │  ├─ api_v1.ts        # REST /v1 (PROD)
+
 │  ├─ ingest.ts        # upsert измерений в jkh_readings
+
 │  ├─ supabase.ts      # клиент Supabase
+
 │  ├─ scenarios.ts     # генерация профилей/сценариев
+
 │  └─ …                # прочие модули
+
 ├─ dist/               # (опционально) сборка JS (npm run build)
+
 ├─ public/             # статические ресурсы (WeWeb build, фронт для демо)
+
 │  └─ index.html       # точка входа WeWeb-приложения (SPA)
+
 ├─ month_load.sh       # пример массовой загрузки
+
 ├─ package.json
+
+
 ├─ tsconfig.json
+
 ├─ .env.example
+
 └─ README.md
 
 ### Папка `public/`
